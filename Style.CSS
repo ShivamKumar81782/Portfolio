@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent{
+    width: 100%;
+    height: 70px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: bisque;
+}
+.child1 h1{
+    text-shadow: 15px 15px 0px rgba(red, green, blue, alpha);
+}
+.child2 a{
+    /* border: 2px solid black; */
+    text-decoration: none;
+    color: black;
+    margin-right: 1.5em;
+    padding: 0.2em;
+    font-size: 1.7em;
+    transition: all 2s linear .5s;
+}
+.child2 a:hover{
+    box-shadow: 5px 5px 10px red;
+}
+
+@Media (max-width: 480px){
+    .parent{
+        background-color: blueviolet;
+        color: white;
+        justify-content: space-evenly;
+ }
+ .child2{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2em 0;
+}
+.child2 a{
+    margin: .3em 0;
+}
+}
+@media (min-width:481px)and (max-width:768px){
+    .parent{
+        background-image: linear-gradient(45deg,red,blue,orange,yellow);
+        font-style: italic;
+    }
+}
+@media (min-width: 769px)and (max-width:1279px){
+    .parent{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 800;
+    }
+}
+
+.Shivam{
+    width: 100%;
+    height: 70vh;
+    /* border: 2px solid black; */
+    /* justify-content: space-between; */
+    /* margin: 0.2em 0; */
+    background-image: linear-gradient(45deg,green,lightgreen,yellow,white);
+}
+.child3{
+    color: orange;
+    font-size: 2em;
+    margin: 2em;
+}
+.child4{
+    color: white;
+    font-size: 2em;
+    padding: 0.1em;
+    margin: 1.7em;
+}
+.child5{
+    color: white;
+    font-size: 1.2em;
+    margin: 2em;
+}
+button{
+    background-color: blueviolet;
+    margin: .7em;
+    font-size: 1.5em;
+}
+.child6{
+    img{
+     justify-content: center;   
+     background-image: linear-gradient(45deg,green,lightgreen,yellow,white);
+     margin: 2.5em
+    }
+    
+}
+.child7{
+    width: 100%;
+    height: 80vh;
+    border: 1px solid black;
+}
+.child7{
+    justify-content: center;
+    margin: 2.5em 0;
+}
+.child7 img{
+    float: left;
+}
+.card{
+    font-size: 1.5em;
+    color: darkgreen;
+} 
+.child8 img{
+    float: right;
+}
+.card1{
+    color: darkgreen;
+    margin: 1em 0;
+}
+.Section{
+    width: 100%;
+    height: 70vh;
+    border: 1px solid black;
+}
+.c1{
+    font-size: 2em;
+    color: darkgreen;
+
+}
